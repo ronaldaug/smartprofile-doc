@@ -1,5 +1,4 @@
-# smartprofile-doc
-Smart Profile Documentation
+# Laravel Mix 
 
 There are three options for Laravel Mix compiling process
 
