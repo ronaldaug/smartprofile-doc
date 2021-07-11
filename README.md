@@ -11,11 +11,11 @@ There are three options for Laravel Mix compiling process
 `resources/backend/app/js` နဲ့ `resources/backend/app/sass` အောက်က js/css အားလုံး
 
 ------------------
-## 2. Plugins scripts
+## 2. Plugins scripts <a name="plugin"></a>
 
 `resources/backend/plugins/custom` အောက်က plugins တွေရဲ့ js/css အားလုံး
 
-#### Plugin အသစ်ထည့်နည်း <a name="plugin"></a>
+#### Plugin အသစ်ထည့်နည်း 
 
 ##### npm ရှိတဲ့ plugin တစ်ခုကို ထည့်မယ်ဆို 
 - `npm install plugin-name` လုပ်ပါ
