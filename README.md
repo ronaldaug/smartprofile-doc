@@ -47,7 +47,7 @@ Laravel Mix run လိုက်လျှင်  `resources/backend/metronic` အ
 
 ------------
 
-<img src="./asset.jpg">
+<img src="asset.jpg">
 
 > dashed lines တွေက တစ်ခါပဲ run ဖို့လိုအပ်တယ် 
 
