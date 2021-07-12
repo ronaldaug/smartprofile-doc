@@ -61,7 +61,7 @@ remove_plugins_folders_under_public , remove_metronic_folders_under_public , com
 
 ##### npm ရှိတဲ့ plugin တစ်ခုကို ထည့်မယ်ဆို 
 - `npm install plugin-name` လုပ်ပါ
-- `webpack.mix.js` အောက်က **npm_plugins** array ထဲကို အောက်က object အတိုင်းထည့်ပါ 
+- ပြီးလျှင် `webpack.mix.plugins.js` file ထဲက **npm_plugins** array ထဲကို အောက်က object အတိုင်းထည့်ပါ 
 
 ```javascript
  {
@@ -72,7 +72,7 @@ remove_plugins_folders_under_public , remove_metronic_folders_under_public , com
 
 ##### npm မရှိတဲ့ plugin တစ်ခုကို ထည့်မယ်ဆို 
 - plugin folder ကို `resources/backend/plugins/custom` ထဲကိုထည့်ပါ
-- ပြီးလျှင် `webpack.mix.js` အောက်က **no_npm_plugins** array ထဲ folder directory ထည့်ပါ 
+- ပြီးလျှင် `webpack.mix.plugins.js` file ထဲက **no_npm_plugins** array ထဲ folder directory ထည့်ပါ 
 
 
 Laravel Mix run လိုက်လျှင် plugins အားလုံးက `public/backend/plugins/custom` ထဲကိုရောက်သွားပါမယ်။ ပြီးတော့မှ blade ထဲမှာချိတ်သုံးရပါမယ်။ 
