@@ -24,8 +24,7 @@ There are three options for Laravel Mix compiling process
 ```javascript
  {
         name:'plugin-name',
-        js:'node_modules/plugin-name/dist/js/plugin-name.min.js',
-        css:'node_modules/plugin-name/dist/css/plugin-name.min.css'
+        dist_folder:'node_modules/plugin-name/dist'
  }
 ```
 
