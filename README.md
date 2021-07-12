@@ -2,16 +2,48 @@
 
 There are three options for Laravel Mix compiling process
 
-1. [Application scripts](#application)
-2. [Plugins scripts](#plugin)
-3. [Metronic theme scripts](#metronic)
+1. [Mix config](#config)
+2. [Application scripts](#application)
+3. [Plugins scripts](#plugin)
+4. [Metronic theme scripts](#metronic)
 
-## 1. Application scripts <a name="application"></a>
+## 1. Mix config <a name="#config"></a>
+
+```javascript
+
+// Reset and re-run all scripts
+const reset_and_re_run_all_scripts        = false;
+
+
+// --- Remove folders [optional] ---- //
+
+// True will remove plugins folders under spublic/backend/plugins/custom before compiling
+let remove_plugins_folders_under_public   = true; 
+
+// True will remove metronic folder under public/backend before compiling
+let remove_metronic_folders_under_public  = true; 
+
+
+// --- Run scripts [optional] ---- //
+
+// True will compile only application scripts under "resources/backend/app" folders without touching Metronic's core/bundle/theme scripts.
+let compile_application_scripts           = false; 
+
+// True will compile only plugins scripts under "resources/backend/plugins/custom" without touching Metronic's core/bundle/theme scripts.
+let compile_plugins_scripts               = false; 
+
+// True will compile only Metronic scripts under "resources/backend/metronic" without touching Application and plugin scripts.
+let compile_metronic_scripts              = false; 
+
+```
+
+
+## 2. Application scripts <a name="application"></a>
 
 `resources/backend/app/js` နဲ့ `resources/backend/app/sass` အောက်က js/css အားလုံး
 
 ------------------
-## 2. Plugins scripts <a name="plugin"></a>
+## 3. Plugins scripts <a name="plugin"></a>
 
 `resources/backend/plugins/custom` အောက်က plugins တွေရဲ့ js/css အားလုံး
 
@@ -39,7 +71,7 @@ Laravel Mix run လိုက်လျှင် plugins အားလုံးက 
 
 ------------------
 
-## 3. Metronic theme scripts <a name="metronic"></a>
+## 4. Metronic theme scripts <a name="metronic"></a>
 
 Laravel Mix run လိုက်လျှင်  `resources/backend/metronic` အောက်က metronic js/css အားလုံးကို compile လုပ်သွားပါလိမ့်မယ် 
 
