@@ -7,7 +7,18 @@ There are three options for Laravel Mix compiling process
 3. [Plugins scripts](#plugin)
 4. [Metronic theme scripts](#metronic)
 
-## 1. Mix config <a name="#config"></a>
+## 1. Mix config <a name="config"></a>
+
+Mix ရဲ့ အဓိက config ကိုပြင်မယ်ဆို webpack.mix.js ထဲမှာ အောက်ကအတိုင်းထည့်ထားပါတယ်
+
+`reset_and_re_run_all_scripts` ကတော့ ပထမဆုံး အကြိမ်မှာ true ပေးသင့်ပြီး နောက်ပိုင်းမှာတော့ reset မလုပ်မချင်း အမြဲ false ထားတာကောင်းပါတယ် 
+
+ကျန်တဲ့ optional variables တွေဖြစ်တဲ့
+```
+remove_plugins_folders_under_public , remove_metronic_folders_under_public , compile_application_scripts , compile_plugins_scripts , compile_metronic_scripts
+```
+စတာတွေကို run မယ်ဆို အပေါ်က `reset_and_re_run_all_scripts` ကို false ထားပေးရပါမယ်
+
 
 ```javascript
 
