@@ -1,14 +1,12 @@
-
 # Blade Template ကအဓိက ၃ ပိုင်း
 
-- Metronic
-- Plugins
-- Application
+* Metronic
+* Plugins
+* Application
 
 ## CSS
 
-```html
-
+```markup
 <!-- Metronic -->
 <link rel="stylesheet" href="metronic-plugins.min.css">
 <link rel="stylesheet" href="metronic-styles.min.css">
@@ -19,13 +17,11 @@
 
 <!--  Application -->
 <link rel="stylesheet" href="app.min.css">
-
 ```
 
 ## JS
 
-```html
-
+```markup
 <!-- Metronic -->
 <script src="/metronic-plugins.min.js"></script>
 <script src="/metronic-scripts.min.js"></script>
@@ -36,9 +32,7 @@
 
 <!-- Application -->
 <script src="/app.min.js"></script>
-
 ```
 
-----------
-ဥပမာပုံ
-<img src="blade.jpg">
+ဥပမာပုံ ![](.gitbook/assets/blade.jpg)
+
